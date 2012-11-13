@@ -1,0 +1,32 @@
+{
+    "manifest_version" :2,
+    
+    "name": "Clock",
+	
+	"description": "A simple digital clock",
+	
+	"version": "0.1",
+
+	"icons": {
+		"16": "images/Clock16.png",
+		"48": "images/Clock48.png",
+		"128": "images/Clock128.png"
+	},
+    
+	"app": {
+		"launch": {
+			"local_path":"Clock.html"
+		}
+	},
+
+	"options_page": "Options.html",
+	
+	"permissions":[
+        "storage",
+        "alarms",
+		"tts",
+		"unlimitedStorage",
+		"tabs",
+		"notifications"
+	]
+}
